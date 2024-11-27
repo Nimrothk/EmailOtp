@@ -131,8 +131,8 @@ namespace EmailOtpVerification.Controllers
         {
             try
             {
-                string from = "Example@test.dso.org.sg"; // Replace a email address  testable email = Nimrothk@gmail.com  domain = gmail.com
-                string appPassword = "**************"; // Replace a key  testable key = soaayjyetbvkpcwk
+                string from = "Example@test.dso.org.sg"; // Replace a email address  testable domain = gmail.com
+                string appPassword = "**************"; // Replace a key
 
                 MailMessage message = new MailMessage
                 {
